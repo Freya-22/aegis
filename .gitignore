@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets — never commit real tokens
+.env
+
+# Local model / scanner caches
+.cache/
+*.onnx
+
+# Benchmark raw output (commit summaries, not dumps)
+results/raw/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Personal planning notes (kept local)
+master_prompt.md
